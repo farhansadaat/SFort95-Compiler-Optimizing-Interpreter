@@ -1,2 +1,13 @@
-# SFort95-Compiler-Optimizing-Interpreter
-Built an optimizing compiler front-end and interpreter for a Fortran-like language in C++. Implemented lexical analysis, recursive-descent parsing, AST construction, constant-folding optimization, and runtime execution using a symbol table, demonstrating strong foundations in compiler design and systems programming.
+# SFort95 Interpreter
+
+A resume-grade compiler/interpreter project.
+
+## Features
+- Recursive-descent parser
+- Abstract Syntax Tree (AST)
+- Constant folding optimization
+- Direct execution (interpreter)
+
+## Build
+```bash
+g++ *.cpp -o sfort
